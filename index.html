@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>SoonX</title>
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<link href="css/soonx.css" rel="stylesheet" type="text/css" />
+<link href="css/media.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+
+<body class="light">
+
+
+
+<!-- started id wrap  -->
+
+<div id="wrap" style="background: rgba(0, 0, 0, 0.65);">
+
+  <!--starts logo div -->
+
+  <div class="logo">
+    <div class="container"> <a href="#."><img class="logo" src="images/logo-light.png" alt="Talentus Esquadrias" /></a> </div>
+    <div class="clear"></div>
+  </div>
+
+  <!--ended logo div -->
+
+  <div class="clear"></div>
+
+  <!-- starts counter -->
+
+  <div class="counter spacecounter">
+    <div class="container">
+      <ul class="countdown_2">
+          <li>
+            <span class="days">00</span>
+              <p class="days_ref">dias</p>
+          </li>
+          <li>
+            <span class="hours">00</span>
+            <p class="hours_ref">horas</p>
+          </li>
+          <li>
+            <span class="minutes">00</span>
+            <p class="minutes_ref">min</p>
+         </li>
+         <li>
+          <span class="seconds last">00</span>
+          <p class="seconds_ref">segundos</p>
+         </li>
+      </ul>
+      <div class="spacenotify mid">
+        <p>Nosso website está em construção. Para mais informações, deixe seu email.</p>
+          <div class="field">
+         <div id="result"></div>
+           <div class="form">
+           <form action="http://themesindustry.us13.list-manage.com/subscribe/post-json?u=4d80221ea53f3a4487ddebd93&id=803f6739db&c=?" method="get" onSubmit="return false">
+          <div class="field">
+
+                    <input type="email" placeholder="Seu Email" required name="EMAIL" id="EMAIL" />
+                    <input type="submit" value="NOTIFIQUE-ME" />
+          </div>
+          </form>
+          </div>
+      </div>
+     </div>
+     <div class="clear"></div>
+     <div class="contact-info">
+       <div class="phone-mail">
+         <h4>Telefones</h4>
+         <p>(61) 3967-6427 / (61) 3967-6428 (Vendas)</p>
+         <p>vendas@talentusesquadrias.com.br</p>
+       </div>
+       <div class="address">
+         <h4>Endereço</h4>
+         <p>AC 101 Conjunto B, Lote 04,</p>
+         <p>Santa Maria - Brasília/DF - CEP 72501-102</p>
+       </div>
+     </div>
+     <div class="spacesocial">
+        <ul>
+          <li><a href="https://www.facebook.com/talentusesquadrias/" class="fa fb"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://instagram.com/talentusesquadrias" class="fa in"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!-- end counter -->
+  <div class="clear"></div>
+
+  <!-- start footer -->
+
+  <div class="spacefooter">
+    <div class="container">
+      <p>Copyrights © 2016 Talentus Esquadrias - Todos os direitos reservados. Desenvolvido por Studio Sttark</p>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <!--end footer -->
+
+</div>
+
+<!-- ended id wrap  -->
+
+<!-- JS File -->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jparticle.jquery.js"></script>
+<script>
+	$(function(){
+		$("body.space").jParticle({
+			color: "#fff"
+		});
+	});
+	</script>
+
+
+<script type="text/javascript" src="js/jquery.downCount.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.countdown_2').downCount({
+		date: '09/15/2016 18:30:00',
+  offset: +1
+	});
+});
+</script>
+</body>
+</html>
