@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
 body {
 	background: url(../images/banner.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -730,7 +730,7 @@ a {
 .spacesocial {
 	text-align: center;
 	display: inline-block;
-	margin: 42px 0 0 0;
+	margin: 35px 0 0 0;
 }
 .spacesocial ul {
 }
@@ -789,15 +789,22 @@ a {
    9. Home-5 Space-Footer
 ================================================== */
 .spacefooter {
-	margin: 5% 0 0 0;
+	margin: 3% 0 0 0;
 	width: 100%;
 }
 .spacefooter p {
 	text-align: center;
 	font-size: 13px;
-	margin: 12px 0;
+	margin: 50px 0;
 }
 
+.spacefooter .container a{
+	color: #aeaeae;
+}
+
+.spacefooter .container a:hover{
+	color: #fff;
+}
 
 /* ==================================================
    10. Home-1 canvas
@@ -811,12 +818,6 @@ canvas {
 	z-index: -1;
 }
 canvas{opacity: 0.5 ;}
-
-
-
-
-
-
 
 #result .success {
 	    border: 1px solid #060;
@@ -876,7 +877,11 @@ canvas{opacity: 0.5 ;}
    color:#333;
 }
 
-/*Estilo Personalizados*/
+
+/* ==================================================
+   11. Home-1 estilos personalizados
+================================================== */
+
 .contact-info{
 	width: 38%;
 	height: inherit;
@@ -904,4 +909,41 @@ canvas{opacity: 0.5 ;}
 	text-align: right;
 	position: relative;
 	top: -85px;
+}
+
+.translucid-black{
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 999;
+  width: 100%;
+	padding-top:42px;
+}
+
+.responsive-image{
+   max-width: 100%;
+   height: auto;
+}
+
+
+/* max-width  */
+@media screen and (max-width: 600px) {
+	.contact-info *{
+    text-align: center !important;
+  }
+
+  .phone-mail{
+    width: 300px;
+    display: block;
+		margin-left:-45px;
+  }
+
+  .address{
+    width: 300px;
+		display: block;
+		margin-left:-45px;
+		margin-top: 100px;
+  }
+
+	.spacesocial{
+		padding-top: 90px;
+	}
 }
