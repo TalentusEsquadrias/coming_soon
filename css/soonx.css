@@ -2,7 +2,7 @@
 /* CSS Document */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 body {
-	background: url(../images/banner.jpg) no-repeat center center fixed;
+	/*background: url(../images/banner.jpg) no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -10,7 +10,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 body.dark {
-	background: url(../images/bg1.jpg) no-repeat center center fixed;
+	/*background: url(../images/bg1.jpg) no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -19,12 +19,36 @@ body.dark {
 }
 body.light {
 	/*background: url(../images/bg1.jpg) no-repeat center center fixed;*/
-	background: url(../images/bg3.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Roboto', sans-serif;
+}
+
+#carousel1, #carousel2{
+	height:100%;
+	width:100%;
+	position:absolute;
+	z-index: -1;
+	margin:0px;
+	padding:0px;
+}
+
+.carousel-bg1{
+	background: url(../images/bg1.jpg) no-repeat center center fixed;
+}
+
+.carousel-bg2{
+	background: url(../images/bg2.jpg) no-repeat center center fixed;
+}
+
+.carousel-bg3{
+	background: url(../images/bg3.jpg) no-repeat center center fixed;
+}
+
+.carousel-bg4{
+	background: url(../images/bg4.jpg) no-repeat center center fixed;
 }
 
 body.colors {
