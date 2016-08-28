@@ -26,7 +26,7 @@ $(document).ready(function(){
 
     }
 
-    if(bg >= 4){
+    if(bg >= 16){
 
       bg = 0;
 
