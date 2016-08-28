@@ -11,8 +11,9 @@ $(document).ready(function(){
       $("#carousel1").fadeOut(500);
       var esperar = setTimeout(
         function(){
-          $("#carousel1").removeClass();
-          $("#carousel1").addClass("carousel-bg"+bg)
+
+          $("#carousel1").css("background", "url(images/bg"+bg+".jpg) no-repeat center center fixed");
+          
         }, 500);
 
     }else if(bg%2 == 0){
@@ -20,8 +21,9 @@ $(document).ready(function(){
       $("#carousel1").fadeIn(500);
       var esperar = setTimeout(
         function(){
-          $("#carousel2").removeClass();
-          $("#carousel2").addClass("carousel-bg"+bg)
+
+          $("#carousel2").css("background", "url(images/bg"+bg+".jpg) no-repeat center center fixed");
+
        }, 500);
 
     }
