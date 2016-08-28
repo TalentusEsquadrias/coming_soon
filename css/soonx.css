@@ -939,27 +939,11 @@ canvas{opacity: 0.5 ;}
    height: auto;
 }
 
-
+/* ==================================================
+   12. Home-1 estilos mobile
+================================================== */
 /* max-width  */
 @media screen and (max-width: 600px) {
-	.contact-info *{
-    text-align: center !important;
-  }
-
-  .phone-mail{
-    width: 300px;
-    display: block;
-		margin-left:-45px;
-  }
-
-  .address{
-    width: 300px;
-		display: block;
-		margin-left:-45px;
-		margin-top: 100px;
-  }
-
-	.spacesocial{
-		padding-top: 90px;
-	}
+    
+    
 }
