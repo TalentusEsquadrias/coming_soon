@@ -231,6 +231,7 @@ body{
 .container {
 	width: 90%;
 }
+     
 .logo {
 	padding: 12px 0 0 0;
 }
@@ -472,7 +473,7 @@ canvas {
  @media only screen and (max-width: 375px) {
 
 	.spacesocial{
-		 	 margin: 100px 0px 0px 0px;
+		margin: 100px 0px 0px 0px;
 	}
 
  }
