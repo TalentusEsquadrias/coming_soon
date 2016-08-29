@@ -8,6 +8,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	font-family: 'Roboto', sans-serif;
+	overflow: hidden;
 }
 body.dark {
 	/*background: url(../images/bg1.jpg) no-repeat center center fixed;*/
@@ -902,7 +903,7 @@ canvas{opacity: 0.5 ;}
 	width: 38%;
 	height: inherit;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px ;
 	line-height: 28px;
 }
 
@@ -919,6 +920,7 @@ canvas{opacity: 0.5 ;}
 
 .contact-info .phone-mail{
 	text-align: left;
+
 }
 
 .contact-info .address{
@@ -944,6 +946,6 @@ canvas{opacity: 0.5 ;}
 ================================================== */
 /* max-width  */
 @media screen and (max-width: 600px) {
-    
-    
+
+
 }

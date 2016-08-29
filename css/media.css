@@ -181,6 +181,51 @@
 canvas.snow-canvas {
     display: none;
 }
+
+/* ==================== ALTERAÇÕES ==========================*/
+
+body{
+	overflow: visible;
+}
+
+#carousel1, #carousel2{
+	height:175%;
+	width:100%;
+}
+
+.contact-info{
+	width: 88%;
+	height: 200px;
+	margin: 0 auto;
+	padding: 20px;
+	line-height: 28px;
+
+}
+
+.contact-info h4{
+	font-size: 18px;
+	color: #fff;
+}
+
+.contact-info p{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Roboto Light', sans-serif;
+}
+
+.contact-info .phone-mail{
+	text-align: center;
+	margin-top:20px;
+}
+
+.contact-info .address{
+	text-align: center;
+	margin-top:110px;
+
+	top: -85px;
+}
+
+
 }
  @media only screen and (max-width: 640px) {
 .container {
@@ -289,7 +334,7 @@ li.sec span.seconds.last {
 	margin: 24px 0 0 0;
 }
 .spacesocial {
-	margin: 25px 0 0 0;
+	margin: 35px 0 0 0;
 }
 .spacecounter .lightnotify p {
 	width: 100%;
@@ -308,6 +353,7 @@ canvas {
 .spacecounter ul.countdown_2 {margin: 16px 0;}
 .spacecounter .spacenotify input[type=submit] { margin: 0px 0 0 -8px; height: 56px;}}
  @media only screen and (max-width: 480px) {
+
 .container {
 	width: 82%;
 }
@@ -422,3 +468,11 @@ canvas {
 .spacecounter .spacenotify {margin: 25px 0 0 0;}
 .spacecounter .spacenotify p { font-size: 14px; width: 100%;}
 }
+
+ @media only screen and (max-width: 375px) {
+
+	.spacesocial{
+		 	 margin: 100px 0px 0px 0px;
+	}
+
+ }
